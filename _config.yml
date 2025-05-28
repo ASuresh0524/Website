@@ -1,0 +1,43 @@
+# Site Settings
+title: Aakash Suresh 
+name: Aakash Suresh
+description: Personal academic website
+url: https://asuresh0524.github.io
+baseurl: ""
+repository: asuresh0524/asuresh0524.github.io
+
+# Site Author
+author:
+  name: "Aakash Suresh"
+  avatar: "profile.jpg"
+  bio: "Your bio here"
+  location: "Miami, FL"
+  employer: 
+  email: aakashsuresh@berkeley.edu 
+  linkedin: # username
+  github: # username
+  twitter: # username
+
+# Site Features
+markdown: kramdown
+permalink: pretty
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Collections
+collections:
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/ 
