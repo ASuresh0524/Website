@@ -3,8 +3,8 @@ title: Aakash Suresh
 name: Aakash Suresh
 description: Personal academic website showcasing my work in Machine Learning, Healthcare, and Data Engineering
 url: https://asuresh0524.github.io
-baseurl: ""
-repository: ASuresh0524/ASuresh0524.github.io
+baseurl: "/Website"
+repository: ASuresh0524/Website
 
 # Site Author
 author:
@@ -26,6 +26,10 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
+  - .git
+  - .github
+  - README.md
+  - LICENSE
 
 # Collections
 collections:
