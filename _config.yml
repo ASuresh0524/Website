@@ -1,3 +1,7 @@
+# Theme Settings
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "default"
+
 # Site Settings
 title: Aakash Suresh
 name: Aakash Suresh
@@ -18,18 +22,48 @@ author:
   github: ASuresh0524
   phone: "954-516-9922"
 
-# Site Features
-markdown: kramdown
-permalink: pretty
+# Reading Files
+include:
+  - .htaccess
+  - _pages
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
+  - "*.sublime-project"
+  - "*.sublime-workspace"
   - vendor
-  - .git
-  - .github
-  - README.md
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
   - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs
+  - /test
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-remote-theme
+  - jekyll-archives
+  - jekyll-redirect-from
 
 # Collections
 collections:
@@ -61,8 +95,49 @@ defaults:
       related: true
   # _pages
   - scope:
-      path: ""
+      path: "_pages"
       type: pages
     values:
       layout: single
-      author_profile: true 
+      author_profile: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: single
+      author_profile: true
+      share: true
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development 
