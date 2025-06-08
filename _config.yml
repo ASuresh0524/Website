@@ -5,10 +5,9 @@ search: false
 
 # Site Settings
 title: Aakash Suresh
-name: Aakash Suresh
-description: Machine Learning Researcher and UC Berkeley Student
+description: Personal website of Aakash Suresh - UC Berkeley Student and Machine Learning Researcher
 url: https://asuresh0524.github.io
-baseurl: "/Website"
+baseurl: ""
 repository: ASuresh0524/Website
 
 # Site Author
@@ -105,4 +104,7 @@ defaults:
 compress_html:
   clippings: all
   ignore:
-    envs: development 
+    envs: development
+
+# Build settings
+markdown: kramdown 
