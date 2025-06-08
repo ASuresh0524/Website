@@ -1,22 +1,22 @@
 # Site Settings
-title: Aakash Suresh 
+title: Aakash Suresh
 name: Aakash Suresh
-description: Personal academic website
+description: Personal academic website showcasing my work in Machine Learning, Healthcare, and Data Engineering
 url: https://asuresh0524.github.io
 baseurl: ""
-repository: asuresh0524/asuresh0524.github.io
+repository: ASuresh0524/ASuresh0524.github.io
 
 # Site Author
 author:
   name: "Aakash Suresh"
   avatar: "profile.jpg"
-  bio: "Your bio here"
-  location: "Miami, FL"
-  employer: 
-  email: aakashsuresh@berkeley.edu 
-  linkedin: # username
-  github: # username
-  twitter: # username
+  bio: "Machine Learning Researcher | Data Engineer | UC Berkeley Student"
+  location: "Berkeley, CA"
+  employer: "Memorial Sloan Kettering Cancer Center"
+  email: aakashsuresh@berkeley.edu
+  linkedin: aakash-suresh-cal
+  github: ASuresh0524
+  phone: "954-516-9922"
 
 # Site Features
 markdown: kramdown
@@ -40,4 +40,25 @@ collections:
     permalink: /:collection/:path/
   talks:
     output: true
-    permalink: /:collection/:path/ 
+    permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true 
