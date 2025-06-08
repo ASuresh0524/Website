@@ -3,9 +3,109 @@ layout: single
 title: "CV"
 permalink: /cv/
 author_profile: true
-redirect_from:
-  - /resume
+classes: wide
 ---
+
+<div class="cv-wrapper">
+  <div class="cv-actions">
+    <a href="/assets/files/AakashSuresh_Resume.pdf" class="btn btn--primary" download>Download PDF Version</a>
+  </div>
+
+  <div class="cv-preview">
+    <img src="/assets/images/resume.jpg" alt="Aakash Suresh's Resume" class="cv-image">
+  </div>
+
+  <div class="cv-highlights">
+    <h2>Quick Highlights</h2>
+    
+    <h3>Education</h3>
+    <p>UC Berkeley - B.S. in Computer Science, Electrical Engineering, and Bioengineering (2024-2028)</p>
+    
+    <h3>Current Positions</h3>
+    <ul>
+      <li>Machine Learning Research Intern - Memorial Sloan Kettering Cancer Center</li>
+      <li>Data Engineering Intern - T-Mobile</li>
+    </ul>
+    
+    <h3>Technical Skills</h3>
+    <ul>
+      <li><strong>Languages:</strong> Python, R, Java, C, C#, Go, SQL</li>
+      <li><strong>Frameworks:</strong> React, Node.js, Flask, TensorFlow, PyTorch</li>
+      <li><strong>Tools:</strong> Git, Docker, Google Cloud Platform, VS Code</li>
+    </ul>
+    
+    <h3>Awards & Recognition</h3>
+    <ul>
+      <li>Coca-Cola Scholar (150/150,000)</li>
+      <li>Scripps Research Grant Awardee</li>
+      <li>NSF Research Grant Awardee</li>
+      <li>NIH Research Grant Awardee</li>
+    </ul>
+  </div>
+</div>
+
+<style>
+.cv-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cv-actions {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.cv-preview {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.cv-image {
+  max-width: 100%;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.cv-highlights {
+  margin-top: 40px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.cv-highlights h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.cv-highlights h3 {
+  color: #444;
+  margin-top: 20px;
+}
+
+.cv-highlights ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.cv-highlights ul li {
+  margin: 10px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+</style>
 
 Education
 ======

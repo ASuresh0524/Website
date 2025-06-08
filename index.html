@@ -1,32 +1,131 @@
 ---
-layout: splash
+layout: single
+classes: wide
 author_profile: true
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/header-bg.jpg
 excerpt: "Machine Learning Researcher | Data Engineer | UC Berkeley Student"
-intro: 
-  - excerpt: 'Welcome to my personal website showcasing my work in Machine Learning, Healthcare, and Data Engineering.'
 ---
 
-{% include feature_row id="intro" type="center" %}
+<div class="intro-wrapper">
+  <h1>Hey there! 👋</h1>
+  
+  <h2>I'm Aakash Suresh</h2>
+  <h3>he/him</h3>
 
-<div class="grid__wrapper">
-  <div class="grid__item">
-    <h2>Latest Projects</h2>
+  <p class="bio">
+    I'm a student at UC Berkeley studying Computer Science, Electrical Engineering, and Bioengineering. Originally from Pembroke Pines, Florida, 
+    I've always been passionate about using technology to solve healthcare challenges. When I'm not coding or researching, you can find me on 
+    the basketball court or exploring the Bay Area.
+  </p>
+
+  <div class="current-work">
+    <h3>Currently</h3>
     <ul>
-      <li><a href="/portfolio/#hunger-hotspot-predictor">Hunger Hotspot Predictor</a></li>
-      <li><a href="/portfolio/#research-trends-analysis">Research Trends Analysis</a></li>
-      <li><a href="/portfolio/#cancer-classification-system">Cancer Classification System</a></li>
+      <li>🔬 Machine Learning Research Intern at Memorial Sloan Kettering Cancer Center</li>
+      <li>💻 Data Engineering Intern at T-Mobile</li>
+      <li>📚 Studying at UC Berkeley (Class of 2028)</li>
     </ul>
   </div>
 
-  <div class="grid__item">
-    <h2>Recent Publications</h2>
+  <div class="interests">
+    <h3>Research Interests</h3>
     <ul>
-      <li><a href="/publications/#2023-2024">Trends in Gastroenterology Research</a></li>
-      <li><a href="/publications/#technical-reports-and-preprints">Cancer Risk Classification</a></li>
+      <li>Machine Learning in Healthcare</li>
+      <li>Cancer Research and Genomics</li>
+      <li>Data Engineering and Analytics</li>
+      <li>Artificial Intelligence</li>
     </ul>
   </div>
-</div> 
+
+  <div class="featured-projects">
+    <h3>Featured Projects</h3>
+    
+    <div class="project-card">
+      <h4><a href="https://github.com/ASuresh0524/HungerHotspotPredictor">Hunger Hotspot Predictor</a></h4>
+      <p>Developed ML algorithms to identify patterns of food insecurity, improving supply chain efficiency by 89%.</p>
+      <div class="tech-stack">Python • PyTorch • React • TensorFlow</div>
+    </div>
+
+    <div class="project-card">
+      <h4><a href="https://github.com/ASuresh0524/XAISubtypes">Cancer Classification System</a></h4>
+      <p>Built a 1D-CNN classification pipeline achieving 95% accuracy in breast cancer subtype prediction.</p>
+      <div class="tech-stack">Python • TensorFlow • CNN</div>
+    </div>
+
+    <div class="project-card">
+      <h4><a href="https://github.com/ASuresh0524/IdentifyingResearchTrends">Research Trends Analysis</a></h4>
+      <p>Analyzing publication patterns in medical research using machine learning and natural language processing.</p>
+      <div class="tech-stack">Python • Docker • Git</div>
+    </div>
+  </div>
+
+  <div class="personal-section">
+    <h3>A Bit More About Me</h3>
+    <p>
+      Growing up in South Florida, I developed a love for basketball and technology. I played basketball throughout high school
+      and continue to play recreationally at Berkeley. My journey in computer science started with a fascination for how
+      technology could improve healthcare outcomes, which led me to pursue my unique combination of majors at Berkeley.
+    </p>
+    <p>
+      When I'm not working on research or coursework, I enjoy:
+      <ul>
+        <li>🏀 Playing basketball</li>
+        <li>🎮 Gaming with friends</li>
+        <li>🌉 Exploring the Bay Area</li>
+        <li>📚 Reading about new technologies in healthcare</li>
+      </ul>
+    </p>
+  </div>
+</div>
+
+<style>
+.intro-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.project-card {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.tech-stack {
+  color: #666;
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+.bio {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+h1, h2, h3, h4 {
+  color: #333;
+}
+
+.current-work, .interests, .featured-projects, .personal-section {
+  margin: 40px 0;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+.personal-section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+</style> 
