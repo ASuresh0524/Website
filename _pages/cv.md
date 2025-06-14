@@ -25,6 +25,18 @@ redirect_from:
   * Introduction to Bioengineering and Molecules (A), Multivariable Calculus (A), Discrete Math (A)
 
 ## Work Experience
+* May 2025 - Present: Machine Learning Research Intern
+  * Memorial Sloan Kettering Cancer Center - Carrot-Zhang Lab
+  * Developing ancestry-aware cancer risk classifiers using LightGBM and SHAP
+  * Engineering genomic data processing pipelines using advanced technologies
+  * Location: New York, NY
+
+* March 2025 - Present: Data Engineering Intern
+  * T-Mobile
+  * Developed intelligent data discovery pipeline integrating RAG and agentic workflows
+  * Deployed REST API on Databricks' Unity Catalog
+  * Location: Bellevue, WA
+
 * Feb 2025 - Present: Undergraduate Researcher
   * University of California, San Francisco
   * Research on fairness and explainability in multimodal machine learning models within digital health
@@ -35,41 +47,15 @@ redirect_from:
   * Startups, Venture, and Health-Tech: readysethealth.io
   * Location: Berkeley, CA
 
-* Jan 2025 - Mar 2025: Founding Engineer
-  * CARAIO Technologies
-  * ML for biotech, focusing on classification & segmentation of karyotypes for aneuploidies
-  * Location: Remote
-
-* Jan 2025 - Mar 2025: Founding Full-Stack Developer
-  * Revent
-  * Built a financial tracking model for consumer use
-  * Location: Remote
-
 * Sep 2024 - Jan 2025: Machine Learning Engineer
   * Quest Diagnostics
   * Developed time-series forecasting models for lab test volumes
   * Location: Secaucus, NJ
 
-* Sep 2024 - Dec 2024: Senior Fellow
-  * No Patient Left Behind
-  * Led discussions on investing, drug development, health economics, and public policy
-  * Location: Remote
-
 * Jul 2023 - Jun 2024: AI Researcher
   * Stanford University
   * Examined change in GI research due to the use of AI and COVID-19
   * Location: Stanford, CA
-
-* Sep 2023 - May 2024: Research Scholar
-  * The National Institutes of Health - All of Us Program
-  * Published research on improving AI prediction models in medicine
-  * Location: Bethesda, MD
-
-* Aug 2022 - Apr 2024: AI and ML Researcher
-  * Florida International University
-  * Leveraged XAI techniques (XGBoost, 1D-CNNs, SHAP) for breast cancer biomarker identification
-  * Published in Journal of Emerging Investigators
-  * Location: Miami, FL
 
 * Jun 2023 - Feb 2024: Computational Biology Intern
   * Scripps Research - Andersen Laboratory
@@ -77,15 +63,42 @@ redirect_from:
   * Built sequencing data analysis pipeline
   * Location: La Jolla, CA
 
-* Feb 2023 - May 2023: Researcher
+## Projects and Additional Research
+* Jan 2025 - Mar 2025: ML for Biotech Project
+  * CARAIO Technologies (Founding Engineer)
+  * Led development of ML systems for karyotype classification and aneuploidy detection
+  * Location: Remote
+
+* Jan 2025 - Mar 2025: Financial Analytics Platform
+  * Revent (Founding Full-Stack Developer)
+  * Developed consumer financial tracking model
+  * Location: Remote
+
+* Sep 2024 - Dec 2024: Healthcare Policy Research
+  * No Patient Left Behind (Senior Fellow)
+  * Led research on drug development, health economics, and policy
+  * Location: Remote
+
+* Sep 2023 - May 2024: AI in Medicine Research
+  * NIH All of Us Program (Research Scholar)
+  * Published research on improving AI prediction models in medicine
+  * Location: Bethesda, MD
+
+* Aug 2022 - Apr 2024: Cancer Research Project
+  * Florida International University
+  * Applied XAI techniques for breast cancer biomarker identification
+  * Published in Journal of Emerging Investigators
+  * Location: Miami, FL
+
+* Feb 2023 - May 2023: Medical Research
   * University of Florida
-  * Collaborated on research papers for liver transplants and Short Bowel Syndrome
+  * Research on liver transplants and Short Bowel Syndrome
+  * Publication submitted to Annals of Clinical Cases
   * Location: Gainesville, FL
 
-* Jul 2022: Social Researcher and Attendee
+* Jul 2022: Global Health Research
   * Yale Young Global Scholars
-  * Participated in Solving Global Challenges Program
-  * Created simulation for Global Health subtopic
+  * Created simulation for Global Health challenges
   * Location: New Haven, CT
 
 ## Skills
